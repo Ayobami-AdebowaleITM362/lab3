@@ -358,8 +358,61 @@ textarea {
   font: inherit; /* 2 */
 }
 /* Responsive settings*/
-/* ===== LAYOUT STYLES ====== */
+@media only screen and (min-width 660px){
+   body{
+      font
+      size
+   }
+}
+text{
+   font
+   color
+   alignment
+   size
+}
+h1{
+      font
+   color
+   alignment
+   size
+}
+ol{
+      font
+   color
+   alignment
+   size
+}
+li{
+      font
+   color
+   alignment
+   size
+}
 
-/* ===== MODULAR STYLES ===== */
+#input-email{
+   padding
+   font-size
+   text alignment
+}
 
-/* ===== STATE STYLES ======= */
+/*type*/
+#email{
+   background
+   width (%);
+}
+
+/*(checkbox)*/
+input[type = checkbox] {
+   size, height, width
+}
+#input-age-verification{
+   font-size
+   color
+   alignment
+}
+input[type=submit]{
+   bachground
+   radius border
+   alignment
+   font-size
+}
