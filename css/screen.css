@@ -210,11 +210,12 @@ label {
       color: #581845;
       padding: 20px 10px;
       font-size: 15px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Tangerine', serif;
    }
    h1 {
       font-szie: 100px;
-      font-family: Times New Roman, Times, serif;
+      font-family: 'Tangerine' , serif;
+      text-shadow: 8px 8px 8px #aaa;
       color: #c70039;
       text-align: center;
       size: 100px;
@@ -260,6 +261,6 @@ input[type=submit]{
    body{
       margin: auto;
       font-size: 26px;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: 'Tangerine', serif;
    }
 }
