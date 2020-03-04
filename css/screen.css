@@ -213,16 +213,15 @@ label {
       font-family: 'Tangerine', serif;
    }
    h1 {
-      font-szie: 100px;
+      font-size: 100px;
       font-family: 'Tangerine' , serif;
       text-shadow: 8px 8px 8px #aaa;
       color: #c70039;
       text-align: center;
-      size: 100px;
    }
 }
 
-#input[type=email{
+#input[type=email]{
    width= 30%
    padding: 8px 8px 8px 8px;
    text align: left;
@@ -240,7 +239,7 @@ input[type = checkbox] {
    width:8px;
 }
 #age-verification {
-   height;22px;
+   height: 22px;
    width: 22px;
    float: left;
    border: none;
