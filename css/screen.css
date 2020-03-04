@@ -183,63 +183,83 @@ img, audio, video {
   display: block;
   max-width: 100%;
 }
+/*Base settings*/
+html {
+   font-size: 20px;
+   padding: 24px;
+   padding-left: 28px;
+   padding-top: 2px;
+   line-height: 24px;
+   background-color: #ffc305;
+   margin: inherit;
+   text-rendering: optimizeLegibility;
+}
+body {
+  background-color: #ff5733;
+  margin:0 auto;
+  width: 450px;
+}
+label {
+   display: block;
+}
 
 /* Responsive settings*/
-@media only screen and (min-width 660px){
+@media only screen and (min-width: 660px) {
    body{
-      font
-      size
+      margin: auto;
+      color: #581845;
+      padding: 20px 10px;
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+   }
+   h1 {
+      font-szie: 100px;
+      font-family: Times New Roman, Times, serif;
+      color: #c70039;
+      text-align: center;
+      size: 100px;
    }
 }
-text{
-   font
-   color
-   alignment
-   size
-}
-h1{
-      font
-   color
-   alignment
-   size
-}
-ol{
-      font
-   color
-   alignment
-   size
-}
-li{
-      font
-   color
-   alignment
-   size
-}
 
-#input-email{
-   padding
-   font-size
-   text alignment
+#input[type=email{
+   width= 30%
+   padding: 8px 8px 8px 8px;
+   text align: left;
 }
 
 /*type*/
 #email{
-   background
-   width (%);
+   background: #0c0c0c;
+   width: 80%;
 }
 
 /*(checkbox)*/
 input[type = checkbox] {
-   size, height, width
+   height:8px;
+   width:8px;
 }
-#input-age-verification{
-   font-size
-   color
-   alignment
+#age-verification {
+   height;22px;
+   width: 22px;
+   float: left;
+   border: none;
+   background-color: #0c0c0c;
+   box-shadow: none;
+   color: #581845;
+   text-align: center;
 }
 input[type=submit]{
-   bachground
-   radius border
-   alignment
-   font-size
+   bachground- color: #0c0c0c
+   width: 40%;
+   padding: 16px 16px 16px 16px;
+   border-radius: 8px
+   text-align: center;
+   font-size: 24px;
+}
+@media only screen and (max-width: 850px) {
+   body{
+      margin: auto;
+      font-size: 26px;
+      font-family: Arial, Helvetica, sans-serif;
+   }
 }
