@@ -209,11 +209,11 @@ label {
       margin: auto;
       color: #581845;
       padding: 20px 10px;
-      font-size: 15px;
+      font-size: 30px;
       font-family: 'Tangerine', serif;
    }
    h1 {
-      font-size: 100px;
+      font-size: 50px;
       font-family: 'Tangerine' , serif;
       text-shadow: 8px 8px 8px #aaa;
       color: #c70039;
@@ -229,7 +229,7 @@ label {
 
 /*type*/
 #email{
-   background: #0c0c0c;
+   background: #ffffff;
    width: 80%;
 }
 
@@ -249,7 +249,7 @@ input[type = checkbox] {
    text-align: center;
 }
 input[type=submit]{
-   bachground- color: #0c0c0c;
+   background- color: #0c0c0c;
    width: 40%;
    padding: 16px 16px 16px 16px;
    border-radius: 8px;
